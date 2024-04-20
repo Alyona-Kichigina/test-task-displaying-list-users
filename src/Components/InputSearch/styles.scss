@@ -1,0 +1,13 @@
+.search-input {
+  input {
+    padding: 0px 16px 0px 16px;
+    width: 308px;
+    height: 52px;
+    border-radius: 16px;
+    background: #1E2027;
+  }
+  input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

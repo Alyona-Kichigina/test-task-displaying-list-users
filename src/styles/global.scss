@@ -1,0 +1,48 @@
+@import 'vars';
+@import 'fonts';
+@import 'colors';
+
+html {
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  height: 100%;
+  line-height: 20px;
+  color: $grey-light;
+  font-family: 'Jura';
+}
+
+#root, .flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+:root {
+  --black-dark: #12141B;
+  --black-light: #1A1C23;
+  --black-light-2: #1E2027;
+  --black-light-3: #303238;
+  --grey-light: #DCD8D3;
+  --grey: #8C8988;
+  --red-dark: #CF7B5A33;
+  --red: #CF7B5A;
+  --border-radius: 16px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+.fz-12 {
+  font-size: 12px;
+}
+.fz-14 {
+  font-size: 14px;
+}
+.fz-16 {
+  font-size: 16px;
+}
